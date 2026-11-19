@@ -9,10 +9,10 @@
 <main>
 <section class="location-panel"><div><span class="eyebrow">CURRENT LOCATION</span><div id="coords" class="coords">Waiting for location</div><div id="status" class="status" role="status">Tap Find emergency departments to begin.</div></div><button id="findBtn" class="primary">Find emergency departments</button></section>
 <div id="alert" class="alert hidden" role="alert"></div>
-<section id="results" aria-live="polite"><div class="empty"><div class="empty-icon">⌖</div><h2>Ready when you are</h2><p>Get a one-time GPS fix and search nearby mapped hospitals and facilities explicitly tagged as emergency departments within 80 km.</p></div></section>
-<section class="disclaimer"><strong>Operational note</strong><p>This is a situational-awareness aid, not a destination-control or medical-triage tool. OpenStreetMap coverage and public routing services are best-effort and may be incomplete or unavailable. Confirm ED status, capability, trauma designation, diversion status and destination with medical control and current EMS protocols. Do not delay emergency care to use this app.</p><p>Driving estimates are ordinary road-routing estimates, not ambulance response or transport times.</p></section>
+<section id="results" aria-live="polite"><div class="empty"><div class="empty-icon">⌖</div><h2>Ready when you are</h2><p>Get a one-time GPS fix and search the state facility directory. Results remain available if road routing is unavailable.</p></div></section>
+<section class="disclaimer"><strong>Operational note</strong><p>This is a situational-awareness aid, not a destination-control or medical-triage tool. State directories may be incomplete or delayed. Missouri ED status is sourced from DHSS; Illinois licensed-hospital records are candidates and are not independently proof of an operating ED. Confirm ED status, capability, trauma designation, diversion status and destination with medical control and current EMS protocols. Do not delay emergency care to use this app.</p><p>Driving estimates are ordinary road-routing estimates, not ambulance response or transport times.</p></section>
 <section id="history" class="history hidden"><div class="section-heading"><h2>Previous lookups</h2><button id="clearHistory" class="text-button">Clear history</button></div><div id="historyList"></div></section>
 </main>
-<footer>Map and facility data © OpenStreetMap contributors · Routing by OSRM · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Attribution</a></footer>
+<footer>Facility data: Missouri DHSS and Illinois IDPH · Road routing: public OSRM service (best effort)</footer>
 <script src="app.js"></script>
 </body></html>
