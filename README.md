@@ -1,5 +1,7 @@
 # EMS Nearest ED — state-directory build
 
+Vibecoded by ChatGPT. Do not use in place of protocols, on-line medical control, or your services SOPs.
+
 Static GitHub Pages web app. No OpenAI API, no Overpass, no paid service required.
 
 ## What it does
